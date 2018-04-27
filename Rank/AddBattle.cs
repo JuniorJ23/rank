@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Rank
 {
-    public partial class Form1 : Form
+    public partial class AddBattle : Form
     {
-        public Form1()
+        public AddBattle()
         {
             InitializeComponent();
         }
