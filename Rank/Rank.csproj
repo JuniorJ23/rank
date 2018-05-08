@@ -143,6 +143,7 @@
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Pkm_League\ExportRankLeague.cs" />
+    <Compile Include="Util\GetLogic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\ConnectionPostgreSQL.cs" />
@@ -153,6 +154,9 @@
     <Compile Include="Util\GetRank.cs" />
     <Compile Include="Util\TableData.cs" />
     <Compile Include="Util\User.cs" />
+    <EmbeddedResource Include="AddBattle.resx">
+      <DependentUpon>AddBattle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +169,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bd\bd_rank.backup" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

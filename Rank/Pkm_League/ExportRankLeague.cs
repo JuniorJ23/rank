@@ -2,7 +2,6 @@
 using ClosedXML.Excel;
 using Npgsql;
 using Rank.Util;
-using sComercial.Statistics;
 
 namespace Rank.Pkm_League
 {

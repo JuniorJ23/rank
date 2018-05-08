@@ -63,7 +63,7 @@
             this.pokémonLeagueToolStripMenuItem,
             this.pokémonMyBoy3raGeneraciónToolStripMenuItem});
             this.exportarRankToolStripMenuItem.Name = "exportarRankToolStripMenuItem";
-            this.exportarRankToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exportarRankToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.exportarRankToolStripMenuItem.Text = "Exportar rank";
             // 
             // pokémonLeagueToolStripMenuItem
@@ -71,7 +71,7 @@
             this.pokémonLeagueToolStripMenuItem.Name = "pokémonLeagueToolStripMenuItem";
             this.pokémonLeagueToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.pokémonLeagueToolStripMenuItem.Text = "Pokémon League";
-            this.pokémonLeagueToolStripMenuItem.Click += new System.EventHandler(this.pokémonLeagueToolStripMenuItem_Click);
+            this.pokémonLeagueToolStripMenuItem.Click += new System.EventHandler(this.LeagueToolStripMenuItem_Click);
             // 
             // pokémonMyBoy3raGeneraciónToolStripMenuItem
             // 
@@ -90,8 +90,9 @@
             // agregarBatallaToolStripMenuItem
             // 
             this.agregarBatallaToolStripMenuItem.Name = "agregarBatallaToolStripMenuItem";
-            this.agregarBatallaToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.agregarBatallaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.agregarBatallaToolStripMenuItem.Text = "Agregar Batalla";
+            this.agregarBatallaToolStripMenuItem.Click += new System.EventHandler(this.AddBattleToolStripMenuItem_Click);
             // 
             // FormMain
             // 

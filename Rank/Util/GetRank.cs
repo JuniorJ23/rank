@@ -1,9 +1,9 @@
 ﻿using System.Data;
 using System.Windows.Forms;
 using Npgsql;
-using NpgsqlTypes;
 
-namespace sComercial.Statistics
+namespace Rank.Util
+
 {
     class GetRank
     {
